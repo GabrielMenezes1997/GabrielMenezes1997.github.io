@@ -77,9 +77,9 @@
 Designed interactive dashboards with bar charts, line graphs, scatterplots, and storyboards to present findings effectively.  
 
 <img src="https://github.com/GabrielMenezes1997/GabrielMenezes1997.github.io/blob/main/datavis1.png?raw=true" alt="Data Visualization 1" width="600"/>
-<img src="https://github.com/GabrielMenezes1997/GabrielMenezes1997.github.io/blob/main/datavis2.png?raw=true" alt="Data Visualization 2" width="600"/>
-<img src="https://github.com/GabrielMenezes1997/GabrielMenezes1997.github.io/blob/main/datavis3.png?raw=true" alt="Data Visualization 3" width="600"/>
-<img src="https://github.com/GabrielMenezes1997/GabrielMenezes1997.github.io/blob/main/datavis4.png?raw=true" alt="Data Visualization 4" width="600"/>
+<img src="https://github.com/GabrielMenezes1997/GabrielMenezes1997.github.io/blob/main/datavis22.png?raw=true" alt="Data Visualization 2" width="600"/>
+<img src="https://github.com/GabrielMenezes1997/GabrielMenezes1997.github.io/blob/main/datavis33.png?raw=true" alt="Data Visualization 3" width="600"/>
+<img src="https://github.com/GabrielMenezes1997/GabrielMenezes1997.github.io/blob/main/datavis44.png?raw=true" alt="Data Visualization 4" width="600"/>
 
 **View Full Interactive Dashboard:**  
 [Access Tableau Public Project](https://public.tableau.com/views/Final_Project_Data_Vis/ProjectStory?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
