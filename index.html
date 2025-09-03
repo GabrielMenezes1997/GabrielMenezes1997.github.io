@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gabriel — Senior Business Analyst</title>
+  <meta name="description" content="Senior Business Analyst portfolio: education, projects, dashboards, and analytics work." />
+  <meta property="og:title" content="Gabriel — Senior Business Analyst" />
+  <meta property="og:description" content="Education, projects, dashboards, and analytics work." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/assets/preview.png" />
+  <style>
+    :root{
+      --bg:#ffffff;
+      --card:#f7f8fc;
+      --ink:#0b1020;
+      --muted:#4b5563;
+      --line:#e5e7eb;
+      --accent:#0ea5e9; /* sky-500 */
+      --accent-2:#7c3aed; /* violet-600 */
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,"Noto Sans","Apple Color Emoji","Segoe UI Emoji"}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:980px;margin:0 auto;padding:28px}
+    header{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;margin-bottom:24px}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:44px;height:44px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:grid;place-items:center;font-weight:800;color:#fff}
+    .nav{display:flex;gap:14px;flex-wrap:wrap}
+    .chip{padding:8px 12px;border-radius:999px;background:#fff;border:1px solid var(--line);color:#111}
+
+    .hero{display:grid;gap:12px;margin:22px 0 28px}
+    .title{font-size:clamp(28px,4.5vw,44px);line-height:1.15;font-weight:800}
+    .subtitle{color:var(--muted);max-width:65ch}
+
+    h2{margin-top:28px}
+    hr{border:none;border-top:1px solid var(--line);margin:16px 0}
+
+    .grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;display:grid;gap:10px}
+    .tag{font-size:12px;color:var(--muted)}
+    .card h3{margin:0;font-size:18px}
+    .card p{margin:0;color:var(--muted)}
+
+    .project-section{display:grid;gap:14px}
+    .project-section img{width:100%;height:auto;border:1px solid var(--line);border-radius:12px}
+
+    .two-col{display:grid;gap:18px;grid-template-columns:1fr 1fr}
+    @media (max-width:900px){.two-col{grid-template-columns:1fr}}
+
+    footer{margin:36px 0 12px;color:var(--muted);font-size:14px}
+    .badges{display:flex;gap:10px;flex-wrap:wrap}
+    .badge{border:1px solid var(--line);background:#fff;border-radius:10px;padding:6px 10px}
+    code{background:#f3f4f6;border:1px solid var(--line);border-radius:6px;padding:2px 6px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">G</div>
+        <div>
+          <strong>Gabriel</strong><br/>
+          <span class="tag">Senior Business Analyst | NYC</span>
+        </div>
+      </div>
+      <nav class="nav">
+        <a class="chip" href="#education">Education</a>
+        <a class="chip" href="#projects">Projects</a>
+        <a class="chip" href="#contact">Contact</a>
+        <a class="chip" href="resume.pdf">Resume</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1 class="title">Senior Business Analyst</h1>
+      <p class="subtitle">I turn raw data into clear insights. I build dashboards, write SQL, and deliver simple visuals for decisions. Below are my education and selected projects (Yelp analytics, Subway reviews, and Brazil socioeconomic dashboards).</p>
+      <div class="badges">
+        <span class="badge">SQL</span>
+        <span class="badge">Python</span>
+        <span class="badge">Power BI</span>
+        <span class="badge">Tableau</span>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <hr/>
+      <div class="two-col">
+        <div>
+          <p><strong>Master's Degree in Business Analytics</strong><br/>
+          <em>Cornell University, SC Johnson College of Business</em></p>
+        </div>
+        <div>
+          <p><strong>Bachelor of Science in Business Administration</strong><br/>
+          <em>State University of Campinas</em></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <hr/>
+
+      <article class="project-section" aria-label="Yelp Inc.">
+        <h3>Project — Yelp Inc.</h3>
+        <p><strong>Description:</strong> Analyzed raw and large datasets to extract meaningful insights for Yelp.</p>
+        <p><strong>Technologies:</strong> SQL, Power BI</p>
+        <p><strong>Key Insights:</strong></p>
+        <ul>
+          <li><strong>Regional Review Analysis:</strong> Identified top and low-performing regions by reviews, supporting targeted marketing and presence improvement.</li>
+        </ul>
+        <img src="https://github.com/GabrielMenezes1997/GabrielMenezes1997.github.io/blob/main/Yelp%20Project_img1.png?raw=true" alt="Regional Review Analysis"/>
+        <ul>
+          <li><strong>Check-In Patterns:</strong> Found peak locations and days for check-ins (e.g., Tuesdays low), informing promo strategy and staffing.</li>
+          <li><strong>Customer Behavior Analysis:</strong> Explored review patterns for personalization and satisfaction.</li>
+        </ul>
+        <img src="https://github.com/GabrielMenezes1997/GabrielMenezes1997.github.io/blob/main/Yelp%20Project_img2.png?raw=true" alt="Customer Behavior Analysis"/>
+      </article>
+
+      <article class="project-section" aria-label="Subway Reviews Analysis">
+        <h3>Project — Subway Reviews Analysis</h3>
+        <p><strong>Description:</strong> Built visual and statistical analysis to evaluate statements from Subway leadership.</p>
+        <p><strong>Technologies:</strong> Python (Matplotlib, Pandas, NumPy, Seaborn), CSV</p>
+        <p><strong>Key Insights:</strong></p>
+        <ul>
+          <li><strong>Review Polarization:</strong> Reviews cluster at 1★ and 5★; mid-range is rare.</li>
+        </ul>
+        <img src="https://github.com/GabrielMenezes1997/GabrielMenezes1997.github.io/blob/main/subway_reviews_a1.png?raw=true" alt="Review Polarization"/>
+        <ul>
+          <li><strong>Rating Trends Over Time:</strong> Ratings declined while volume peaked ~2018 and fell after 2020.</li>
+        </ul>
+        <img src="https://github.com/GabrielMenezes1997/GabrielMenezes1997.github.io/blob/main/subway_reviews_a2.png?raw=true" alt="Rating Trends Over Time"/>
+        <ul>
+          <li><strong>Competitor Analysis:</strong> Compared Subway with Jersey Mike's and Panera Bread.</li>
+        </ul>
+        <img src="https://github.com/GabrielMenezes1997/GabrielMenezes1997.github.io/blob/main/subway_reviews_a3.png?raw=true" alt="Competitor Analysis"/>
+      </article>
+
+      <article class="project-section" aria-label="Brazil Socioeconomic Dashboards">
+        <h3>Project — Data Visualization: Socioeconomic Trends in Brazil</h3>
+        <p><strong>Description:</strong> An in-depth analysis of poverty and socioeconomic factors (age, gender, education, employment, urban/rural).</p>
+        <p><strong>Technologies:</strong> Tableau Public</p>
+        <p><strong>Key Areas:</strong> Education & poverty; urban vs. rural; workforce; demographics & income.</p>
+        <div class="grid">
+          <img src="https://github.com/GabrielMenezes1997/GabrielMenezes1997.github.io/blob/main/datavis1.png?raw=true" alt="Data Visualization 1"/>
+          <img src="https://github.com/GabrielMenezes1997/GabrielMenezes1997.github.io/blob/main/datavis22.png?raw=true" alt="Data Visualization 2"/>
+          <img src="https://github.com/GabrielMenezes1997/GabrielMenezes1997.github.io/blob/main/datavis33.png?raw=true" alt="Data Visualization 3"/>
+          <img src="https://github.com/GabrielMenezes1997/GabrielMenezes1997.github.io/blob/main/datavis44.png?raw=true" alt="Data Visualization 4"/>
+        </div>
+        <p><strong>Interactive Dashboard:</strong> <a href="https://public.tableau.com/views/Final_Project_Data_Vis/ProjectStory?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank" rel="noopener">View on Tableau Public →</a></p>
+      </article>
+
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <hr/>
+      <p>Email: <a href="mailto:hello@example.com">hello@example.com</a> · <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a> · <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></p>
+    </section>
+
+    <footer>
+      <p>© <span id="y"></span> Gabriel. Built with GitHub Pages.</p>
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
