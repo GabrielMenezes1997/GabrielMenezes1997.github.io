@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Gabriel — Senior Business Analyst</title>
-  <meta name="description" content="Senior Business Analyst portfolio: education, projects, dashboards, and analytics work." />
-  <meta property="og:title" content="Gabriel — Senior Business Analyst" />
+  <title>Gabriel Menezes — Data & Insights Lead</title>
+  <meta name="description" content="Data & Insights Lead portfolio: education, projects, dashboards, and analytics work." />
+  <meta property="og:title" content="Gabriel — Data & Insights Lead" />
   <meta property="og:description" content="Education, projects, dashboards, and analytics work." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="/assets/preview.png" />
@@ -90,8 +90,8 @@
     .chip{padding:8px 12px;border-radius:999px;background:var(--glass-strong);border:1px solid var(--line);color:#111;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);box-shadow:0 4px 14px rgba(12,20,40,.05)}
 
     .hero{display:grid;gap:10px;margin:18px 0 22px}
-    .title{font-size:clamp(28px,4.5vw,44px);line-height:1.15;font-weight:800}
-    .subtitle{color:var(--muted);max-width:65ch}
+    .title{font-size:clamp(28px,4.5vw,44px);line-height:1.15;font-weight:300}
+    .subtitle{color:var(--muted);max-width:100ch}
 
     h2{margin-top:26px}
     hr{border:none;border-top:1px solid var(--line);margin:14px 0}
@@ -103,11 +103,35 @@
     .card h3{margin:0;font-size:18px}
     .card p{margin:0;color:var(--muted)}
 
-    .project-section{display:grid;gap:12px;background:var(--glass-strong);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 10px 26px rgba(12,20,40,.06)}
-    .project-section img{width:100%;height:auto;border:1px solid var(--line);border-radius:12px;box-shadow:0 6px 18px rgba(12,20,40,.06)}
+    /* === Updated spacing so content isn't tight to edges === */
+    .project-section{
+      display:grid;
+      gap:12px;
+      background:var(--glass-strong);
+      backdrop-filter:blur(10px);
+      -webkit-backdrop-filter:blur(10px);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:22px 24px;            /* more inner space */
+      margin:16px 0;                /* space between cards */
+      box-shadow:0 10px 26px rgba(12,20,40,.06)
+    }
+    .project-section h3{margin:0 0 6px}
+    .project-section p{margin:0 0 8px; line-height:1.65}
+    .project-section ul{
+      margin:6px 0 0;
+      padding-left:1.25rem;         /* left indent for bullets */
+      list-style-position:outside;
+    }
+    .project-section li{margin:6px 0}
+    .project-section img{justify-self:center; width:80%;height:auto;border:1px solid var(--line);border-radius:12px;box-shadow:0 6px 18px rgba(12,20,40,.06)}
 
     .two-col{display:grid;gap:18px;grid-template-columns:1fr 1fr}
     @media (max-width:900px){.two-col{grid-template-columns:1fr}}
+    @media (max-width:600px){
+      .project-section{padding:18px}
+      .project-section ul{padding-left:1.1rem}
+    }
 
     footer{margin:34px 0 12px;color:var(--muted);font-size:14px}
     .badges{display:flex;gap:10px;flex-wrap:wrap}
@@ -125,53 +149,106 @@
   <div class="container">
     <header>
       <div class="brand">
-        <div class="logo">G</div>
+        <div class="logo">
+  <img src="1634134826280.jpg" alt="Gabriel headshot" loading="lazy" width="44" height="44"></div>
         <div>
-          <strong>Gabriel</strong><br/>
-          <span class="tag">Senior Business Analyst | NYC</span>
+          <strong>Gabriel Menezes</strong><br/>
+          <span class="tag"> New York City | Remote </span>
         </div>
       </div>
       <nav class="nav">
         <a class="chip" href="#education">Education</a>
         <a class="chip" href="#projects">Projects</a>
         <a class="chip" href="#contact">Contact</a>
-        <a class="chip" href="resume.pdf">Resume</a>
+        <a class="chip" href="resume_gm588_d.pdf" target ="_blank">Resume</a>
       </nav>
     </header>
 
     <section class="hero">
-      <h1 class="title">Senior Business Analyst</h1>
-      <p class="subtitle">I turn raw data into clear insights. I build dashboards, write SQL, and deliver visuals for decisions. Explore my education and projects below.</p>
+      <h1 class="title">Data & Insights Lead | Senior Business Analyst </h1>
+      <p class="subtitle"> Hey there! I'm brazilian living in New York City driven by innovation and challenges. 
+        <p class="subtitle"> Today, I turn raw and complex data into dashboards and visualizations that help people better undestand data. I build dashboards, codes, and impact! 
+          <p class="subtitle"> Explore more about my education, work and projects below.</p>
       <div class="badges">
+        <span class="badge">Project Management</span>
         <span class="badge">SQL</span>
         <span class="badge">Python</span>
         <span class="badge">Power BI</span>
         <span class="badge">Tableau</span>
+        <span class="badge">Machine Learning</span>
+        <span class="badge">AI Development</span>
       </div>
     </section>
 
+ <!-- Education -->
     <section id="education">
       <h2>Education</h2>
       <hr/>
-      <p><strong>Master's Degree in Business Analytics</strong><br/>
-      <em>Cornell University, SC Johnson College of Business</em></p>
-      <p><strong>Bachelor of Science in Business Administration</strong><br/>
-      <em>State University of Campinas</em></p>
+      <div class="project-section">
+        <h3>Cornell University — SC Johnson College of Business</h3>
+        <p><em>Master of Science in Business Analytics (STEM) | May 2024 – Aug 2025</em></p>
+        <ul>
+          <li><strong>GPA:</strong> 3.6</li>
+          <li><strong>Core:</strong> Statistics & Inference, Data Visualization, Machine Learning, SQL (Business Data Analysis), Python (Statistical Programming), Advanced Spreadsheet Modeling, Marketing & Customer Analytics, AI Product Design.</li>
+          <li><strong>Capstone:</strong> Retail coupon ROI optimization—segmentation and lift modeling to improve redemption and spend efficiency.</li>
+        </ul>
+      </div>
+      <div class="project-section">
+        <h3>State University of Campinas (UNICAMP)</h3>
+        <p><em>B.S. in Business Administration | Jan 2017 – Jan 2021</em></p>
+        <ul>
+          <li>Recognized as the <strong>2nd best university in Latin America (U.S. News)</strong>.</li>
+          <li><strong>Core:</strong> Operations Research, Statistics, Financial & Capital Markets, Strategy & Planning, Supply Chain, Entrepreneurship, Innovation Management.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+      <h2>Professional Experience</h2>
+      <hr/>
+      <div class="project-section">
+        <h3>Veritas Maps — Data & Insights Lead</h3>
+        <p><em>New York, NY | Nov 2024 – Present</em></p>
+        <ul>
+          <li>Extract, tranform and load: <strong>35+ sources</strong> unified with SQL/Excel, clean schemas, and update routines.</li>
+          <li>Shipped analytics at scale: <strong>1,500+ socioeconomic metrics</strong> and <strong>1,000+ interactive maps</strong> in Power BI to help leaders make decisions.</li>
+          <li>Made complex data simple: clear visuals and short narratives so non-technical stakeholders can act quickly.</li>
+        </ul>
+      </div>
+      <div class="project-section">
+        <h3>Management Solutions — Senior Business Analyst</h3>
+        <p><em>São Paulo, Brazil | Oct 2020 – Aug 2023</em></p>
+        <ul>
+          <li>Improved bank risk decisions with models that raised predictive accuracy from <strong>70% → 85%</strong>.</li>
+          <li>Closed <strong>100+ compliance gaps</strong> and helped avoid ~<strong>$100K</strong> in potential penalties.</li>
+          <li>Delivered <strong>20+ risk frameworks/models</strong> across credit, AML, and operational risk; presented findings to senior leadership.</li>
+        </ul>
+      </div>
     </section>
 
     <section id="projects">
       <h2>Projects</h2>
       <hr/>
       <article class="project-section">
-        <h3>Project — Yelp Inc.</h3>
-        <p><strong>Description:</strong> Analyzed raw datasets to extract insights for Yelp. <br><strong>Technologies:</strong> SQL, Power BI</p>
+        <h3>Capstone Project — Dunnhumby Campaign Analytics.</h3>
+        <p><strong>Description:</strong> For a retailer, I cleaned and joined 2M+ purchase and coupon records. Then I used Python to model segmentation, lift, and ROI to show who to target, which offers to run, and and which campaigns we can expected profit. <br><strong>Technologies:</strong> SQL, Python, Power BI</p>
+        <img src="caps1.png" alt="Marketing Analysis">
+        <img src="caps2.png" alt="Marketing Analysis">
+        <img src="caps3.png" alt="Marketing Analysis">
+        <p><a href="Capstone Final Presentationg.pdf" target="_blank">Full Analysis here →</a></p>
+      </article>
+      
+      <article class="project-section">
+        <h3>Project — Yelp Inc Database Analysis.</h3>
+        <p><strong>Description:</strong> Cleaned and modeled Yelp data with SQL, then built a Power BI dashboard to surface region/business trends fast. Shows where ratings, reviews, and check-ins are strongest. <br><strong>Technologies:</strong> SQL, Power BI</p>
         <img src="Yelp%20Project_img1.png" alt="Regional Review Analysis">
         <img src="Yelp%20Project_img2.png" alt="Customer Behavior Analysis">
       </article>
 
       <article class="project-section">
         <h3>Project — Subway Reviews Analysis</h3>
-        <p><strong>Description:</strong> Built data visualizations to test Subway’s leadership statements. <br><strong>Technologies:</strong> Python, Pandas, Matplotlib</p>
+        <p><strong>Description:</strong> Cleaned and modeled Subway reviews across years, then visualized results. The dashboard shows rating distribution by year and a steady drop in average rating even as review volume grew. <br><strong>Technologies:</strong> Python, Pandas, Matplotlib</p>
         <img src="subway_reviews_a1.png" alt="Review Polarization">
         <img src="subway_reviews_a2.png" alt="Rating Trends">
         <img src="subway_reviews_a3.png" alt="Competitor Analysis">
@@ -179,24 +256,24 @@
 
       <article class="project-section">
         <h3>Project — Socioeconomic Trends in Brazil</h3>
-        <p><strong>Description:</strong> Tableau dashboards on poverty, education, and workforce dynamics. <br><strong>Technologies:</strong> Tableau Public</p>
+        <p><strong>Description:</strong> Collected public data and turned it into a clean Tableau story. Users can filter by region and year to compare poverty rates, school outcomes, and workforce metrics. <br><strong>Technologies:</strong> Tableau Public</p>
         <img src="datavis1.png" alt="Data Visualization 1">
-        <img src="datavis22.png" alt="Data Visualization 2">
-        <img src="datavis33.png" alt="Data Visualization 3">
-        <img src="datavis44.png" alt="Data Visualization 4">
-        <p><a href="https://public.tableau.com/views/Final_Project_Data_Vis/ProjectStory" target="_blank">View full interactive dashboard →</a></p>
+        <img src="datavis2.png" alt="Data Visualization 2">
+        <img src="datavis3.png" alt="Data Visualization 3">
+        <img src="datavis4.png" alt="Data Visualization 4">
+        <p><a href="https://public.tableau.com/shared/9BD7MQ5RW?:display_count=n&:origin=viz_share_link" target="_blank">View full interactive dashboard →</a></p>
       </article>
     </section>
 
     <section id="contact">
       <h2>Contact</h2>
       <hr/>
-      <p>Email: <a href="mailto:hello@example.com">hello@example.com</a></p>
-      <p><a href="https://github.com/" target="_blank">GitHub</a> · <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></p>
+      <p>Email: <a href="gm588@cornell.edu">gm588@cornell.edu</a></p>
+      <p><a href="https://gabrielmenezes1997.github.io/" target="_blank">GitHub</a> · <a href="https://www.linkedin.com/in/gabriel-menezes-aa6b6b1a7/" target="_blank">LinkedIn</a></p>
     </section>
 
     <footer>
-      <p>© <span id="y"></span> Gabriel. Built with GitHub Pages.</p>
+      <p>© <span id="y"></span> Gabriel. Creating impact using Data & Analytics.</p>
     </footer>
   </div>
   <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
